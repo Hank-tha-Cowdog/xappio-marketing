@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Inter, Space_Mono } from "next/font/google";
+import { Space_Grotesk, Space_Mono } from "next/font/google";
 import Navigation from "@/components/Navigation";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
+const spaceGrotesk = Space_Grotesk({
+  variable: "--font-space-grotesk",
   subsets: ["latin"],
 });
 
@@ -15,7 +15,7 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "xappio.AI — Creative Intelligence for Video Libraries",
+  title: "xappio.io — Creative Intelligence for Video Libraries",
   description:
     "Conversational search across your entire video library. Ask questions in plain language. Everything runs locally, on your hardware.",
 };
@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${spaceMono.variable} font-sans antialiased bg-black text-white`}
+        className={`${spaceGrotesk.variable} ${spaceMono.variable} font-sans antialiased bg-black text-white`}
       >
         <Navigation />
         {children}

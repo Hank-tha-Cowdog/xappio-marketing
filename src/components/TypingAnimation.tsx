@@ -3,21 +3,21 @@
 import { useState, useEffect, useCallback } from "react";
 
 const questions = [
-  "Find every moment where someone talks about leaving home",
-  "Which interviews mention the factory closing?",
-  "Show me all the sunset shots from the Iceland footage",
-  "What did Maria say about her childhood?",
-  "Pull together a paper edit for the opening of episode three",
-  "Find the most emotional moments across all the interviews",
-  "Which clips on this drive have people laughing?",
-  "Search the B-roll for anything with rain",
+  "You've got 14 hours of Iceland footage across three drives — show me the highlights",
+  "Which interviews haven't been used in any paper edit yet?",
   "What stories do we have about resilience?",
-  "Show me every scene where the music changes mood",
-  "Find all the archival footage we haven't used yet",
-  "Which takes have the best audio quality?",
+  "I've attached the creative brief — find clips that match the opening sequence",
+  "Cross-reference this research PDF with anything in the highland footage",
+  "Pull clips that match the shot list from the Google Drive doc",
+  "When does Maria first mention leaving home?",
+  "Find every moment someone talks about the factory closing",
   "What's the strongest opening line from any interview?",
-  "Pull every reference to the 1994 earthquake",
-  "Show me quiet, contemplative moments from the desert shoot",
+  "Pull together a paper edit for the opening of episode three",
+  "Search for B-roll that could work as cutaways for the Maria segment",
+  "Add the Víkurfjall ridge sunset to selects and flag it for color review",
+  "Show me all the golden hour shots from the Iceland footage",
+  "Find quiet, contemplative moments from the highland plateau",
+  "Which clips on this drive have people in silhouette against the sky?",
 ];
 
 type Phase = "typing" | "pausing" | "erasing" | "waiting";

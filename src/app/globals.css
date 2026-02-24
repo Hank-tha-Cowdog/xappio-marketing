@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme inline {
-  --font-sans: var(--font-inter);
+  --font-sans: var(--font-space-grotesk);
   --font-mono: var(--font-space-mono);
 }
 
@@ -17,4 +17,13 @@ body {
 
 .cursor-blink {
   animation: blink 1s step-end infinite;
+}
+
+@keyframes selectsPulse {
+  0%, 100% { box-shadow: 0 0 20px rgba(245,158,11,0.3), 0 0 6px rgba(245,158,11,0.15); }
+  50% { box-shadow: 0 0 28px rgba(245,158,11,0.45), 0 0 10px rgba(245,158,11,0.25); }
+}
+
+.selects-glow {
+  animation: selectsPulse 2s ease-in-out infinite;
 }
