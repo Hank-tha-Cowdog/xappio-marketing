@@ -1,0 +1,67 @@
+# xappio.AI Marketing Website — Local Development Requirements
+# ============================================================
+#
+# Install these before cloning and running the project.
+# All other dependencies (React, Next.js, Tailwind, etc.) are handled
+# automatically by `npm install` from package.json.
+
+# -------------------------------------------------------------------
+# REQUIRED
+# -------------------------------------------------------------------
+
+# Node.js — JavaScript runtime
+# Download: https://nodejs.org/
+# Minimum version: 20.0.0
+# Recommended: Latest LTS (currently v22.x)
+# Verify: node -v
+Node.js >= 20.0.0
+
+# npm — Package manager (included with Node.js)
+# Minimum version: 10.0.0
+# Verify: npm -v
+npm >= 10.0.0
+
+# Git — Version control
+# Download: https://git-scm.com/
+# Minimum version: 2.30.0
+# Verify: git --version
+Git >= 2.30.0
+
+# -------------------------------------------------------------------
+# OPTIONAL (but recommended)
+# -------------------------------------------------------------------
+
+# A modern web browser for development
+# Chrome, Firefox, Safari, or Edge (latest version)
+
+# A code editor
+# Recommended: VS Code (https://code.visualstudio.com/)
+# Useful extensions:
+#   - ESLint
+#   - Tailwind CSS IntelliSense
+#   - TypeScript and JavaScript Language Features (built-in)
+#   - Prettier (code formatting)
+
+# -------------------------------------------------------------------
+# AUTOMATICALLY INSTALLED BY npm install
+# -------------------------------------------------------------------
+# These are listed here for reference only. Do NOT install manually.
+#
+# next@16.1.6          — React framework (App Router)
+# react@19.2.3         — UI library
+# react-dom@19.2.3     — React DOM renderer
+# tailwindcss@4.x      — Utility-first CSS
+# typescript@5.x       — Type-safe JavaScript
+# eslint@9.x           — Linter
+# @tailwindcss/postcss  — Tailwind PostCSS plugin
+# @types/node           — Node.js type definitions
+# @types/react          — React type definitions
+# @types/react-dom      — React DOM type definitions
+# eslint-config-next    — Next.js ESLint rules
+
+# -------------------------------------------------------------------
+# NETWORK REQUIREMENTS
+# -------------------------------------------------------------------
+# An active internet connection is needed for:
+#   - npm install (downloads packages from npm registry)
+#   - Running the site (images load from Unsplash CDN)
